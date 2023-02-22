@@ -1,0 +1,5 @@
+# Aqui se configuran la config de conexion a las bases de datos
+AUTH_destino="-h 127.0.0.1 -u root test"
+AUTH_casetatest2="-h 127.0.0.1 -u root test2"
+
+

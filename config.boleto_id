@@ -1,0 +1,3 @@
+DUMPARGS="--max_statement_time=50"
+COPYARGS="--connect_timeout=20"
+
