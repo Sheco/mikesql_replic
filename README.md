@@ -4,8 +4,8 @@ Este repositorio incluye unos scripts para copiar una tabla de mysql de un host 
 
 Es basicamente un wrapper al rededor de mysqldump, lo único que hace de especial
 es que primero se conecta al servidor destino (llamado `destino` aquí) para obtener el
-valor mas alto del campo de referencia de la tabla de origen, para luego ejecutar 
-mysqldump en el servidor de origén copiando todos los elementos cuyo campo de referencia
+valor mas alto del campo de referencia de la tabla a copiar, para luego ejecutar 
+mysqldump en el servidor de origén copiando todos los elementos cuyo valor del campo de referencia
 sea mayor al que se obtuvo anteriormente.
 
 Este dump es enviado por una pipa directo al mysql del servidor destino, el cual
