@@ -27,8 +27,8 @@ autenticación para conectarse a mysql de los distintos servidores.
 
 Por ejemplo
 ```
-AUTH_destino="-h 127.0.0.1 -u user2 password2"
-AUTH_tablaorigen="-h 192.168.0.3 -u user3 password3"
+AUTH_destino="-h 127.0.0.1 -u user2 -ppassword2 nombredb2"
+AUTH_tablaorigen="-h 192.168.0.3 -u user3 -ppassword3 nombredb2"
 ```
 
 En este ejemplo, la variable `AUTH_destino` incluye las credenciales para conectarse
