@@ -23,6 +23,6 @@ then
   mysqldump $DUMPARGS -t $AUTH --tables $tabla | mysql $COPYARGS $AUTH_destino
 else
   echo "$tabla obteniendo boletos $campo>'$maxval'"
-  mysqldump $DUMPARGS -t $AUTH --tables $tabla --where "$campo>'$maxval'" | mysql $COPYARGS $AUTH_main
+  mysqldump $DUMPARGS -t $AUTH --tables $tabla --where "$campo>'$maxval'" | mysql $COPYARGS $AUTH_destino
 fi
 
